@@ -1,0 +1,28 @@
+{
+  "name": "e-pharmacist",
+  "version": "1.0.1",
+  "description": "ensure medicine is accessible by all ",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nampardrakpa/epharmacist.git"
+  },
+  "author": "Nampardrakpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nampardrakpa/epharmacist/issues"
+  },
+  "homepage": "https://github.com/Nampardrakpa/epharmacist#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.0.0",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
